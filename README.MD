@@ -59,7 +59,7 @@ Os pontos importantes aqui são:
 - Este VirtualService aplica-se a solicitações provenientes do gateway http.
 - O destino define o serviço para o qual as solicitações são roteadas.
 
-![](/fig/fig1.gif)
+![](/fig/fig1_fundo.gif)
 
 ## A Migração Simulada (Mock Migration)
 Um teste do plano de projeto de migração para descobrir resultados não intencionais ou problemas despercebidos.
@@ -80,7 +80,8 @@ Tecnicamente a migração dependerá que sejam obedecidos os seguintes procedime
 
 ### Configuração local atual em produção.
 
-IMAGEM DO DETETIVE
+![](/fig/fig2_fundo.gif)
+![](/fig/fig3.png)
 
 A migração para a nuvem iniciará migrando primeiro o Serviço E para o cluster AWS EKS e para isso, é necessário o entendendiemtno do roteamento de tráfego entre o microsserviço B e o microsserviço E no cluster local.
 
