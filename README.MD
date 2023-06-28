@@ -81,7 +81,7 @@ Tecnicamente a migração dependerá que sejam obedecidos os seguintes procedime
 ### Configuração local atual em produção.
 
 ![](/fig/fig2_fundo.gif)
-![](/fig/fig3.png)
+![](/fig/fig3a.png)
 
 A migração para a nuvem iniciará migrando primeiro o Serviço E para o cluster AWS EKS e para isso, é necessário o entendendiemtno do roteamento de tráfego entre o microsserviço B e o microsserviço E no cluster local.
 
