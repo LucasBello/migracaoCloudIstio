@@ -110,7 +110,7 @@ spec:
           number: 8080
 ```
 
-IMAGEM DO NGINX
+![](/fig/fig4a.png)
 Mesmo manifesto de serviço implantado na AWS e no local com tráfego ao vivo no local
 
 ### Etapas para migrar o Microsserviço E para a nuvem
@@ -198,6 +198,9 @@ spec:
  resolution: STATIC
 ```
 
+![](/fig/fig4_fundo.gif)
+
+
 ## Executando a migração simulada (Mock Migration)
 
 - Configuração do tráfego em 10% para o microsserviço em nuvem. Monitoramento de logs, painéis e a integridade geral da aplicação.
@@ -207,12 +210,14 @@ spec:
 - Escolha de novos serviços para roteamento e testes com base no planejamento de migração.
 - Migração de todos os microsserviços de produção.
 
+![](/fig/fig5_fundo.png)
+
 ## Mudança para a Nuvem de Produção
 
 Após a migração simulada bem-sucedida ou que encontrou apenas problemas menores, estabelecemos um cronograma formal de migração.
 Se a migração simulada tiver problemas sérios, ela precisará ser repetida após as devidas correções
 
-IMAGEM CUTOVER
+![](/fig/fig6_fundo.gif)
 
 ## Conclusão
 
